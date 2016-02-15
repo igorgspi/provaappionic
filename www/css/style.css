@@ -1,0 +1,134 @@
+/* pagina login Facebook */
+.landing {
+    background: url(../img/ionic.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.facebook {
+    max-width: 200px;
+    margin: 0 auto;
+
+}
+
+.facebook-button {
+    position: absolute;
+    top:490px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+
+
+ 
+.bar-subheader h3 {
+    font-size: 21px;
+
+}
+
+
+/* fine pagina login Facebook */
+
+
+
+.tabs-top > .tabs {
+    top: initial;
+}
+
+
+.bar.bar-stable .title {
+    color: #387ef5;
+    text-align: center;
+}
+
+.home {
+	padding-top: 5px;
+	padding-left: 0px;
+    padding-right: 15px;
+    height: 200px;
+}
+
+.home img {
+
+  /*  border-radius: 50%; */
+    width: 130px;
+    height: 130px;
+    padding: 2px;
+}
+
+
+.row {
+    padding-bottom: 0px;
+}
+
+
+}
+
+.home1 img {
+
+	/* border-radius: 50%; */
+    width: 130px;
+    height: 130px;
+    padding: 1px;
+    
+
+
+
+}
+
+.paginaprincipale .card {
+   height: 360px;
+    padding-top: 0px;
+    margin-top: 50px;
+    box-shadow: 0 1px 3px #e5e5e5;
+    background-color: rgba(255, 193, 7, 0.15);
+    margin-bottom: 5px;
+}
+
+
+.ion-checkmark-circled:before {
+    font-size: 100px;
+    color: rgb(56, 126, 245);
+
+}
+
+.ion-close-circled:before {
+    font-size: 100px;
+    color:rgba(128, 128, 128, 0.71);
+}
+
+
+
+.button1 {
+    border-color: transparent; 
+    background-color: transparent;
+    padding-left: 70px;
+    padding-right: 15px;
+
+}
+
+.button2 {
+    border-color: transparent; 
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 70px;
+
+}
+
+
+
+/* pagina creagruppo */
+
+.creagruppo {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.paginacreagruppo .card {
+    background-color: rgba(33, 150, 243, 0.32);
+   height: 200px;
+}

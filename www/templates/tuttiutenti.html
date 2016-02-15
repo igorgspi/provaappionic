@@ -1,0 +1,21 @@
+<ion-view view-title="Chats">
+  <ion-content>
+  
+  	<div class="bar bar-header item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Cerca">
+  </label>
+  <button class="button button-clear">
+   Cancella
+  </button>
+</div>
+      
+      <ion-item class="item-avatar item-icon-right" ng-repeat="profile in tutti" type="item-text-wrap" >
+        <img ng-src="{{profile.avatar}}">
+        <h3>{{profile.name}},{{profile.age}}</h3>
+        
+        
+      </ion-item>
+  </ion-content>
+</ion-view>
